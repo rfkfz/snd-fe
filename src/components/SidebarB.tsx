@@ -21,11 +21,11 @@ const Sidebar: React.FC = () => {
             </ul>
             <p className='text-gray-400 text-xs pl-4'>CONFIGURE</p>
             <ul className='pl-6 pt-3'>
-                <li className="mb-2 flex items-center text-sm">
+                <li className="mb-2 flex items-center text-sm font-bold">
                     <Link to="/index" className="flex items-center">
                         <img src={iconSide} alt="none" className="h-5 w-5 mr-2" />
                         Index
-                    </Link>      
+                    </Link>
                 </li>
                 <li className="mb-2 flex items-center text-sm">
                     <img src={iconSide} alt="none" className="h-5 w-5 mr-2" />
