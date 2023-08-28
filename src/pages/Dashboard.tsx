@@ -1,6 +1,6 @@
 
-import Navbar from '../components/NavbarA';
-import Sidebar from '../components/SidebarA';
+import Navbar from '../components/NavbarB';
+import Sidebar from '../components/SidebarB';
 import Overview from '../contents/Overview';
 
 const Dashboard = () => {

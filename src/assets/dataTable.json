@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "nama": "Aplikasi ABC",
+      "plan": "Build",
+      "indeces": 1,
+      "usage": 100,
+      "records": 5000,
+      "cluster": "Indonesia"
+    },
+    {
+      "nama": "Aplikasi XYZ",
+      "plan": "Complete",
+      "indeces": 2,
+      "usage": 75,
+      "records": 10000,
+      "cluster": "United States"
+    },
+    {
+      "nama": "Aplikasi PQR",
+      "plan": "Build",
+      "indeces": 3,
+      "usage": 50,
+      "records": 3000,
+      "cluster": "India"
+    }
+  ]
+}

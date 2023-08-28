@@ -6,6 +6,8 @@ import Beranda from "./pages/Beranda";
 import Dashboard from "./pages/Dashboard";
 import Index from "./pages/Index";
 import Indices from "./pages/Indices";
+import Settings from "./contents/Settings";
+import Create from "./contents/CreateApplication";
 //import AddIndex from "./pages/AddIndex";
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/index" element={<Index />} />
           <Route path="/indices" element={<Indices />} />
+          <Route path="/settings" element={<Settings />} />
+          <Route path="/create" element={<Create />} />
         </Routes>
       </BrowserRouter>
     </div>

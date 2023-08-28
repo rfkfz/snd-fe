@@ -21,7 +21,7 @@ const Sidebar: React.FC = () => {
             </ul>
             <p className='text-gray-400 text-xs pl-4'>CONFIGURE</p>
             <ul className='pl-6 pt-3'>
-                <li className="mb-2 flex items-center text-sm font-bold">
+                <li className="mb-2 flex items-center text-sm">
                     <Link to="/index" className="flex items-center">
                         <img src={iconSide} alt="none" className="h-5 w-5 mr-2" />
                         Index
@@ -72,6 +72,17 @@ const Sidebar: React.FC = () => {
                 <li className="mb-2 flex items-center text-sm">
                     <img src={iconSide} alt="none" className="h-5 w-5 mr-2" />
                     Nav Item
+                </li>
+            </ul>
+            <ul className='pl-4'>
+                <li className='border-b-2'>
+
+                </li>
+                <li className="pl-2 pt-3 mb-2 flex items-center text-sm ">
+                    <Link to="/settings" className="flex items-center">
+                        <img src={iconSide} alt="none" className="h-5 w-5 mr-2 filter gra" />
+                        Settings
+                    </Link>
                 </li>
             </ul>
 
