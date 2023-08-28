@@ -67,7 +67,7 @@ const CreateApplication = () => {
             <div className="ml-56 mt-14 mr-12 flex">
                 <div className="flex-grow">
                     <div className="p-4 ml-10 mb-4">
-                        <p className="text-2xl font-semibold mb-2">Select your new application</p>
+                        <p className="text-2xl font-semibold mb-2">Create your new application</p>
                         <p className="text-md text-gray-400">
                             Create a new standalone application
                         </p>

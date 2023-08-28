@@ -32,9 +32,11 @@ const Navbar: React.FC = () => {
                     <div className={`h-5 w-5 ${randomColor} rounded mr-2 flex items-center justify-center text-white text-xs font-semibold`}>
                         {initials}
                     </div>
-                    <p className="text-black text-sm">My App</p>
+                    <Link to="/settings" className="text-black text-sm">
+                        My App
+                    </Link>
                     <img src={iconD} alt="none" className="h-5 w-5 ml-2 mx-10" />
-                    
+
                     <img src={iconS} alt="none" className="h-4 w-4 ml-2 mx-2" />
                     <Link to="/indices" className="text-black text-sm">
                         My Index
@@ -42,7 +44,7 @@ const Navbar: React.FC = () => {
                     <img src={iconD} alt="none" className="h-5 w-5 ml-2 mx-10" />
                 </div>
             </div>
-            
+
         </nav>
     );
 };
