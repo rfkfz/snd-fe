@@ -1,40 +1,49 @@
 import { Link } from "react-router-dom";
+import iconDoc from "../assets/icons/icon-doc.svg"
+import illustration from "../assets/icons/illustration.svg"
 
 const BerandaForm = () => {
     return (
-    <div className="bg-[#040034] sm:p-16 md:p-24 lg:p-32">
-        <nav className="bg-[#040034] p-2 fixed top-0 left-0 w-full">
-            <div className="container mx-auto flex justify-between items-center">
-                <div className="text-white font-bold text-xl">
-                ""
-                </div>
-                <ul className="flex pr-4">
-                    <li><a href="#" className="text-white w-24 flex items-center hover:font-semibold">Company</a></li>
-                    <li><a href="#" className="text-white w-20 flex items-center hover:font-semibold">Partner</a></li>
-                    <li><a href="#" className="text-white w-24 flex items-center hover:font-semibold">Support</a></li>
+    <div className="bg-[#040034] h-screen">
+        <nav className="bg-[#040034] p-3 border-b border-b-solid border-b-[#191F74] fixed top-0 left-0 w-full">
+            <div className="container mx-auto flex items-center justify-between">
+                <p className="text-white ">Logo</p>
+                <div className="space-x-6 flex items-center">
+                    <button className="text-white flex items-center">
+                        <img src={iconDoc} alt="none" className="w-7 h-7 p-2" />
+                        Documentation
+                    </button>
+                    <button className="text-white border rounded-md  border-neutral-500 hover:border-white py-1 px-3">Get a Demo</button>
                     <Link to="/login">
-                        <li><a className="text-white w-16 flex items-center hover:font-semibold">Login</a></li>
+                        <button className="text-[#040034] bg-neutral-200 rounded-md hover:bg-white py-1 px-3">Login</button>
                     </Link>
-                </ul>
-            </div>
-        </nav>
-        <nav className="bg-[#040034] p-6 border-t border-t-solid border-t-[#191F74] fixed top-11 left-0 w-full">
-            <div className="container mx-auto flex justify-start items-center">
-                <ul className="flex pl-8 ">
-                    <li><a href="#" className="text-white w-28 flex items-center hover:font-semibold">Platform</a></li>
-                    <li><a href="#" className="text-white w-24 flex items-center hover:font-semibold">Pricing</a></li>
-                    <li><a href="#" className="text-white w-32 flex items-center hover:font-semibold">Developers</a></li>
-                    <li><a href="#" className="text-white w-28 flex items-center hover:font-semibold">Resource</a></li>
-                </ul>
+                </div>
             </div>
         </nav>
 
-        <div className="flex flex-col min-h-screen mt-14 p-6">
-            <p className="text-[#67AED7] text-lg font-semibold">AI SEARCH & DISCOVERY PLATFORM</p>
+    <div className="bg-[#040034] lg:flex md:flex flex-row pt-4">
+        <div className="justify-center sm:p-16 md:p-24 lg:p-32">
+            <p className="text-[#67AED7] text-lg font-semibold pb-2">AI SEARCH & DISCOVERY PLATFORM</p>
             <p className="text-white text-6xl">Powering</p>
             <p className="text-white text-6xl">Discovery</p>
             <p className="text-white text-6xl">for your world</p>
+            <div className="space-x-6 pt-14 flex text-white">
+                <button className="text-white bg-[#353AFF] rounded-md hover:bg-[#1E24F2] py-2 px-4">
+                    Get a Demo
+                </button>
+                <button className="text-white border rounded-md py-2 px-4 border-neutral-500 hover:border-white">Start Building
+                </button>
+            </div>
+
         </div>
+        <div className="bg-[#040034] flex items-center justify-center ">
+            {/*ilustrasi */}
+            <img src={illustration} alt="none" width="530" height="530"  />
+        </div>
+        
+    </div>
+    
+
     </div>
     );
 };
