@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "nama": "Aplikasi ABC",
+      "nama": "Aplikasi Aku",
       "plan": "Build",
       "indeces": 1,
       "usage": 100,
@@ -9,20 +9,76 @@
       "cluster": "Indonesia"
     },
     {
-      "nama": "Aplikasi XYZ",
-      "plan": "Complete",
+      "nama": "Aplikasi B",
+      "plan": "Build",
       "indeces": 2,
       "usage": 75,
       "records": 10000,
       "cluster": "United States"
     },
     {
-      "nama": "Aplikasi PQR",
+      "nama": "Aplikasi C",
       "plan": "Build",
       "indeces": 3,
       "usage": 50,
       "records": 3000,
       "cluster": "India"
+    },
+    {
+      "nama": "Aplikasi D",
+      "plan": "Complete",
+      "indeces": 4,
+      "usage": 80,
+      "records": 8000,
+      "cluster": "United Kingdom"
+    },
+    {
+      "nama": "Aplikasi F",
+      "plan": "Build",
+      "indeces": 5,
+      "usage": 60,
+      "records": 6000,
+      "cluster": "Australia"
+    },
+    {
+      "nama": "Aplikasi G",
+      "plan": "Complete",
+      "indeces": 6,
+      "usage": 90,
+      "records": 12000,
+      "cluster": "Canada"
+    },
+    {
+      "nama": "Aplikasi H",
+      "plan": "Build",
+      "indeces": 7,
+      "usage": 70,
+      "records": 7000,
+      "cluster": "France"
+    },
+    {
+      "nama": "Aplikasi I",
+      "plan": "Build",
+      "indeces": 8,
+      "usage": 85,
+      "records": 9000,
+      "cluster": "Germany"
+    },
+    {
+      "nama": "Aplikasi J",
+      "plan": "Complete",
+      "indeces": 9,
+      "usage": 55,
+      "records": 5500,
+      "cluster": "Spain"
+    },
+    {
+      "nama": "Aplikasi K",
+      "plan": "Build",
+      "indeces": 10,
+      "usage": 40,
+      "records": 4000,
+      "cluster": "Japan"
     }
   ]
 }
