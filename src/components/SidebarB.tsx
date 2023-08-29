@@ -1,9 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import logoImage from '../assets/images/Kucing.jpg';
 import iconSide from '../assets/icons/icon-sidebar.svg';
+import iconSettings from '../assets/icons/icon-settings.svg';
+import iconLogout from '../assets/icons/icon-logout.svg';
 
 const Sidebar: React.FC = () => {
+    const navigate = useNavigate();
+
+    const handleLogout = () => {
+
+        navigate('/login');
+    };
+
     return (
         <aside className="bg-gray-100 h-screen w-56 fixed top-0 left-0 flex flex-col border-r-2">
             <ul className="pl-4 pt-3">
@@ -80,9 +90,15 @@ const Sidebar: React.FC = () => {
                 </li>
                 <li className="pl-2 pt-3 mb-2 flex items-center text-sm ">
                     <Link to="/settings" className="flex items-center">
-                        <img src={iconSide} alt="none" className="h-5 w-5 mr-2 filter gra" />
+                        <img src={iconSettings} alt="none" className="h-5 w-5 mr-2 filter gra" />
                         Settings
                     </Link>
+                </li>
+                <li className="pl-2 pt-14 mb-2 flex items-center text-sm ">
+                    <button onClick={handleLogout} className="flex items-center">
+                        <img src={iconLogout} alt="none" className="h-5 w-5 mr-2 filter gra" />
+                        Logout
+                    </button>
                 </li>
             </ul>
 

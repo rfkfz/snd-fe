@@ -1,0 +1,42 @@
+[
+  {
+    "email": "lala@gmail.com",
+    "password": "abc657de"
+  },
+  {
+    "email": "admin@gmail.com",
+    "password": "admin123"
+  },
+  {
+    "email": "susan@gmail.com",
+    "password": "susan456"
+  },
+  {
+    "email": "michael@gmail.com",
+    "password": "michael789"
+  },
+  {
+    "email": "emma@gmail.com",
+    "password": "emma101"
+  },
+  {
+    "email": "david@gmail.com",
+    "password": "david202"
+  },
+  {
+    "email": "linda@gmail.com",
+    "password": "linda303"
+  },
+  {
+    "email": "james@gmail.com",
+    "password": "james404"
+  },
+  {
+    "email": "sarah@gmail.com",
+    "password": "sarah505"
+  },
+  {
+    "email": "alex@gmail.com",
+    "password": "alex606"
+  }
+]
